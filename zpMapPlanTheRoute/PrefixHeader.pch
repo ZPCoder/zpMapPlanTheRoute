@@ -1,0 +1,69 @@
+//
+//  PrefixHeader.pch
+//  zpMapPlanTheRoute
+//
+//  Created by 朱鹏 on 2017/7/31.
+//  Copyright © 2017年 朱鹏. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define kRedColor [UIColor colorWithRed:0.8537 green:0.5231 blue:0.6554 alpha:1.0]
+#define kBlueColor  [UIColor colorWithRed:0.5867 green:0.7349 blue:0.9079 alpha:1.0]
+#define kYellowColor RGBColor(240, 219, 137)
+#define kwhiteColor [UIColor colorWithRed:0.9645 green:0.9387 blue:0.8559 alpha:1.0]
+#define kGrayColor [UIColor colorWithRed:0.669 green:0.6691 blue:0.669 alpha:1.0]
+#define kBlackColor RGBColor(67, 67, 67)
+#define kBackYellowColor RGBColor(250, 245, 226)
+#define kGreenColor   RGBColor(161, 222, 203)
+#define kWordRedColor   RGBColor(219, 79, 52)
+#define kOrangeColor   RGBColor(255, 105, 81)
+#define kPinkColor   RGBColor(227, 113, 142)
+#define kBackGrayColor   RGBColor(236, 236, 236)
+#define kMainGreenColor   RGBColor(132, 204, 201)
+#define kMainRedColor   RGBColor(255, 105, 81)
+#define kMainblueColor   RGBColor(144, 200, 244)
+
+
+#define autoScaleW(width)   [self autoScaleW:(width)]
+#define autoScaleH(height) [self autoScaleH:(height)]
+#define aScaleW(width)   [self aScaleW:(width)]
+#define aScaleH(height) [self aScaleH:(height)]
+#define kRect(x,y,w,h) CGRectMake(aScaleW(x), aScaleH(y), aScaleW(w), aScaleH(h))
+#define Kfonts36  [self aScaleW:22]
+#define Kfonts30  [self aScaleW:19]
+#define Kfonts26  [self aScaleW:15]
+#define Kfonts24  [self aScaleW:14]
+#define Kfonts20  [self aScaleW:12]
+#define Kfonts18  [self aScaleW:10]
+#define Kfonts14  [self aScaleW:8]
+#define kfonts(Size)  [UIFont systemFontOfSize:aScaleH(Size)]
+
+
+#import "UIViewController+baseMethod.h"
+#import "UITableViewCell+baseMethod.h"
+#import "UIView+baseMethod.h"
+
+#import <MBProgressHUD.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import "PresenalBaseViewController.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */

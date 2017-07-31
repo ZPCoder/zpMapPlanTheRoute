@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868050151F2EBEFA0041EE4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050141F2EBEFA0041EE4D /* main.m */; };
+		868050181F2EBEFA0041EE4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050171F2EBEFA0041EE4D /* AppDelegate.m */; };
+		8680501B1F2EBEFA0041EE4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8680501A1F2EBEFA0041EE4D /* ViewController.m */; };
+		8680501E1F2EBEFA0041EE4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8680501C1F2EBEFA0041EE4D /* Main.storyboard */; };
+		868050201F2EBEFA0041EE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8680501F1F2EBEFA0041EE4D /* Assets.xcassets */; };
+		868050231F2EBEFA0041EE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868050211F2EBEFA0041EE4D /* LaunchScreen.storyboard */; };
+		8680502E1F2EBEFA0041EE4D /* zpMapPlanTheRouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8680502D1F2EBEFA0041EE4D /* zpMapPlanTheRouteTests.m */; };
+		868050391F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050381F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests.m */; };
+		8680505B1F2EC8FD0041EE4D /* ZPAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8680504E1F2EC8FD0041EE4D /* ZPAnnotation.m */; };
+		8680505C1F2EC8FD0041EE4D /* ErrorInfoUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050501F2EC8FD0041EE4D /* ErrorInfoUtility.m */; };
+		8680505D1F2EC8FD0041EE4D /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050521F2EC8FD0041EE4D /* CommonUtility.m */; };
+		8680505E1F2EC8FD0041EE4D /* LineDashPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050541F2EC8FD0041EE4D /* LineDashPolyline.m */; };
+		8680505F1F2EC8FD0041EE4D /* MANaviAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050561F2EC8FD0041EE4D /* MANaviAnnotation.m */; };
+		868050601F2EC8FD0041EE4D /* MANaviPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050581F2EC8FD0041EE4D /* MANaviPolyline.m */; };
+		868050611F2EC8FD0041EE4D /* MANaviRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8680505A1F2EC8FD0041EE4D /* MANaviRoute.m */; };
+		868050681F2EC9050041EE4D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050631F2EC9050041EE4D /* MapViewController.m */; };
+		868050691F2EC9050041EE4D /* SearchRoudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050651F2EC9050041EE4D /* SearchRoudViewController.m */; };
+		8680506A1F2EC9050041EE4D /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050671F2EC9050041EE4D /* MapDetailViewController.m */; };
+		8680506E1F2EC9140041EE4D /* MapSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8680506C1F2EC9140041EE4D /* MapSearchTableViewCell.m */; };
+		8680506F1F2EC9140041EE4D /* MapSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8680506D1F2EC9140041EE4D /* MapSearchTableViewCell.xib */; };
+		868050731F2ECB060041EE4D /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868050721F2ECB060041EE4D /* Image.xcassets */; };
+		8680507A1F2ED2000041EE4D /* UIViewController+baseMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050751F2ED2000041EE4D /* UIViewController+baseMethod.m */; };
+		8680507B1F2ED2000041EE4D /* UITableViewCell+baseMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050771F2ED2000041EE4D /* UITableViewCell+baseMethod.m */; };
+		8680507C1F2ED2000041EE4D /* UIView+baseMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 868050791F2ED2000041EE4D /* UIView+baseMethod.m */; };
+		8680507F1F2ED4070041EE4D /* PresenalBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8680507E1F2ED4070041EE4D /* PresenalBaseViewController.m */; };
+		ED199C9787DEDB7D53DE91FA /* libPods-zpMapPlanTheRoute.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF0EF0432A7DAFEDA55A06 /* libPods-zpMapPlanTheRoute.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8680502A1F2EBEFA0041EE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868050081F2EBEFA0041EE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8680500F1F2EBEFA0041EE4D;
+			remoteInfo = zpMapPlanTheRoute;
+		};
+		868050351F2EBEFA0041EE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868050081F2EBEFA0041EE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8680500F1F2EBEFA0041EE4D;
+			remoteInfo = zpMapPlanTheRoute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		328699F2E1ADD651985CDC31 /* Pods-zpMapPlanTheRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zpMapPlanTheRoute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zpMapPlanTheRoute/Pods-zpMapPlanTheRoute.debug.xcconfig"; sourceTree = "<group>"; };
+		868050101F2EBEFA0041EE4D /* zpMapPlanTheRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zpMapPlanTheRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		868050141F2EBEFA0041EE4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		868050161F2EBEFA0041EE4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		868050171F2EBEFA0041EE4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		868050191F2EBEFA0041EE4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8680501A1F2EBEFA0041EE4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8680501D1F2EBEFA0041EE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8680501F1F2EBEFA0041EE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		868050221F2EBEFA0041EE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		868050241F2EBEFA0041EE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868050291F2EBEFA0041EE4D /* zpMapPlanTheRouteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zpMapPlanTheRouteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8680502D1F2EBEFA0041EE4D /* zpMapPlanTheRouteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zpMapPlanTheRouteTests.m; sourceTree = "<group>"; };
+		8680502F1F2EBEFA0041EE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868050341F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zpMapPlanTheRouteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868050381F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zpMapPlanTheRouteUITests.m; sourceTree = "<group>"; };
+		8680503A1F2EBEFA0041EE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8680504D1F2EC8FD0041EE4D /* ZPAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPAnnotation.h; sourceTree = "<group>"; };
+		8680504E1F2EC8FD0041EE4D /* ZPAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPAnnotation.m; sourceTree = "<group>"; };
+		8680504F1F2EC8FD0041EE4D /* ErrorInfoUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorInfoUtility.h; sourceTree = "<group>"; };
+		868050501F2EC8FD0041EE4D /* ErrorInfoUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorInfoUtility.m; sourceTree = "<group>"; };
+		868050511F2EC8FD0041EE4D /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
+		868050521F2EC8FD0041EE4D /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		868050531F2EC8FD0041EE4D /* LineDashPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineDashPolyline.h; sourceTree = "<group>"; };
+		868050541F2EC8FD0041EE4D /* LineDashPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineDashPolyline.m; sourceTree = "<group>"; };
+		868050551F2EC8FD0041EE4D /* MANaviAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviAnnotation.h; sourceTree = "<group>"; };
+		868050561F2EC8FD0041EE4D /* MANaviAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviAnnotation.m; sourceTree = "<group>"; };
+		868050571F2EC8FD0041EE4D /* MANaviPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviPolyline.h; sourceTree = "<group>"; };
+		868050581F2EC8FD0041EE4D /* MANaviPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviPolyline.m; sourceTree = "<group>"; };
+		868050591F2EC8FD0041EE4D /* MANaviRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviRoute.h; sourceTree = "<group>"; };
+		8680505A1F2EC8FD0041EE4D /* MANaviRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviRoute.m; sourceTree = "<group>"; };
+		868050621F2EC9050041EE4D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		868050631F2EC9050041EE4D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		868050641F2EC9050041EE4D /* SearchRoudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRoudViewController.h; sourceTree = "<group>"; };
+		868050651F2EC9050041EE4D /* SearchRoudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchRoudViewController.m; sourceTree = "<group>"; };
+		868050661F2EC9050041EE4D /* MapDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetailViewController.h; sourceTree = "<group>"; };
+		868050671F2EC9050041EE4D /* MapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailViewController.m; sourceTree = "<group>"; };
+		8680506B1F2EC9140041EE4D /* MapSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapSearchTableViewCell.h; sourceTree = "<group>"; };
+		8680506C1F2EC9140041EE4D /* MapSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapSearchTableViewCell.m; sourceTree = "<group>"; };
+		8680506D1F2EC9140041EE4D /* MapSearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapSearchTableViewCell.xib; sourceTree = "<group>"; };
+		868050711F2EC94F0041EE4D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		868050721F2ECB060041EE4D /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		868050741F2ED2000041EE4D /* UIViewController+baseMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+baseMethod.h"; sourceTree = "<group>"; };
+		868050751F2ED2000041EE4D /* UIViewController+baseMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+baseMethod.m"; sourceTree = "<group>"; };
+		868050761F2ED2000041EE4D /* UITableViewCell+baseMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+baseMethod.h"; sourceTree = "<group>"; };
+		868050771F2ED2000041EE4D /* UITableViewCell+baseMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+baseMethod.m"; sourceTree = "<group>"; };
+		868050781F2ED2000041EE4D /* UIView+baseMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+baseMethod.h"; sourceTree = "<group>"; };
+		868050791F2ED2000041EE4D /* UIView+baseMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+baseMethod.m"; sourceTree = "<group>"; };
+		8680507D1F2ED4070041EE4D /* PresenalBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenalBaseViewController.h; sourceTree = "<group>"; };
+		8680507E1F2ED4070041EE4D /* PresenalBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresenalBaseViewController.m; sourceTree = "<group>"; };
+		E4C7C1FF94F22C0C24C873C3 /* Pods-zpMapPlanTheRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zpMapPlanTheRoute.release.xcconfig"; path = "Pods/Target Support Files/Pods-zpMapPlanTheRoute/Pods-zpMapPlanTheRoute.release.xcconfig"; sourceTree = "<group>"; };
+		EECF0EF0432A7DAFEDA55A06 /* libPods-zpMapPlanTheRoute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zpMapPlanTheRoute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8680500D1F2EBEFA0041EE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED199C9787DEDB7D53DE91FA /* libPods-zpMapPlanTheRoute.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868050261F2EBEFA0041EE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868050311F2EBEFA0041EE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394EC359F513B9808363A3D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				328699F2E1ADD651985CDC31 /* Pods-zpMapPlanTheRoute.debug.xcconfig */,
+				E4C7C1FF94F22C0C24C873C3 /* Pods-zpMapPlanTheRoute.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		868050071F2EBEFA0041EE4D = {
+			isa = PBXGroup;
+			children = (
+				868050121F2EBEFA0041EE4D /* zpMapPlanTheRoute */,
+				8680502C1F2EBEFA0041EE4D /* zpMapPlanTheRouteTests */,
+				868050371F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests */,
+				868050111F2EBEFA0041EE4D /* Products */,
+				394EC359F513B9808363A3D1 /* Pods */,
+				B646A1DFFE155AF011A05500 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		868050111F2EBEFA0041EE4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868050101F2EBEFA0041EE4D /* zpMapPlanTheRoute.app */,
+				868050291F2EBEFA0041EE4D /* zpMapPlanTheRouteTests.xctest */,
+				868050341F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		868050121F2EBEFA0041EE4D /* zpMapPlanTheRoute */ = {
+			isa = PBXGroup;
+			children = (
+				868050491F2EC8A70041EE4D /* Custem */,
+				868050461F2EBF450041EE4D /* System */,
+				868050131F2EBEFA0041EE4D /* Supporting Files */,
+			);
+			path = zpMapPlanTheRoute;
+			sourceTree = "<group>";
+		};
+		868050131F2EBEFA0041EE4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				868050141F2EBEFA0041EE4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8680502C1F2EBEFA0041EE4D /* zpMapPlanTheRouteTests */ = {
+			isa = PBXGroup;
+			children = (
+				8680502D1F2EBEFA0041EE4D /* zpMapPlanTheRouteTests.m */,
+				8680502F1F2EBEFA0041EE4D /* Info.plist */,
+			);
+			path = zpMapPlanTheRouteTests;
+			sourceTree = "<group>";
+		};
+		868050371F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				868050381F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests.m */,
+				8680503A1F2EBEFA0041EE4D /* Info.plist */,
+			);
+			path = zpMapPlanTheRouteUITests;
+			sourceTree = "<group>";
+		};
+		868050461F2EBF450041EE4D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				868050161F2EBEFA0041EE4D /* AppDelegate.h */,
+				868050171F2EBEFA0041EE4D /* AppDelegate.m */,
+				8680501C1F2EBEFA0041EE4D /* Main.storyboard */,
+				8680501F1F2EBEFA0041EE4D /* Assets.xcassets */,
+				868050211F2EBEFA0041EE4D /* LaunchScreen.storyboard */,
+				868050241F2EBEFA0041EE4D /* Info.plist */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		868050491F2EC8A70041EE4D /* Custem */ = {
+			isa = PBXGroup;
+			children = (
+				868050701F2EC9320041EE4D /* Macros */,
+				8680504C1F2EC8E40041EE4D /* models */,
+				8680504B1F2EC8D90041EE4D /* viewcontrollrs */,
+				8680504A1F2EC8C90041EE4D /* views */,
+			);
+			name = Custem;
+			sourceTree = "<group>";
+		};
+		8680504A1F2EC8C90041EE4D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8680506B1F2EC9140041EE4D /* MapSearchTableViewCell.h */,
+				8680506C1F2EC9140041EE4D /* MapSearchTableViewCell.m */,
+				8680506D1F2EC9140041EE4D /* MapSearchTableViewCell.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		8680504B1F2EC8D90041EE4D /* viewcontrollrs */ = {
+			isa = PBXGroup;
+			children = (
+				868050811F2ED5BC0041EE4D /* mapVIewViewControllers */,
+				868050801F2ED5A10041EE4D /* BaseViewControllers */,
+			);
+			name = viewcontrollrs;
+			sourceTree = "<group>";
+		};
+		8680504C1F2EC8E40041EE4D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8680504D1F2EC8FD0041EE4D /* ZPAnnotation.h */,
+				8680504E1F2EC8FD0041EE4D /* ZPAnnotation.m */,
+				8680504F1F2EC8FD0041EE4D /* ErrorInfoUtility.h */,
+				868050501F2EC8FD0041EE4D /* ErrorInfoUtility.m */,
+				868050511F2EC8FD0041EE4D /* CommonUtility.h */,
+				868050521F2EC8FD0041EE4D /* CommonUtility.m */,
+				868050531F2EC8FD0041EE4D /* LineDashPolyline.h */,
+				868050541F2EC8FD0041EE4D /* LineDashPolyline.m */,
+				868050551F2EC8FD0041EE4D /* MANaviAnnotation.h */,
+				868050561F2EC8FD0041EE4D /* MANaviAnnotation.m */,
+				868050571F2EC8FD0041EE4D /* MANaviPolyline.h */,
+				868050581F2EC8FD0041EE4D /* MANaviPolyline.m */,
+				868050591F2EC8FD0041EE4D /* MANaviRoute.h */,
+				8680505A1F2EC8FD0041EE4D /* MANaviRoute.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		868050701F2EC9320041EE4D /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				868050741F2ED2000041EE4D /* UIViewController+baseMethod.h */,
+				868050751F2ED2000041EE4D /* UIViewController+baseMethod.m */,
+				868050761F2ED2000041EE4D /* UITableViewCell+baseMethod.h */,
+				868050771F2ED2000041EE4D /* UITableViewCell+baseMethod.m */,
+				868050781F2ED2000041EE4D /* UIView+baseMethod.h */,
+				868050791F2ED2000041EE4D /* UIView+baseMethod.m */,
+				868050711F2EC94F0041EE4D /* PrefixHeader.pch */,
+				868050721F2ECB060041EE4D /* Image.xcassets */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		868050801F2ED5A10041EE4D /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8680507D1F2ED4070041EE4D /* PresenalBaseViewController.h */,
+				8680507E1F2ED4070041EE4D /* PresenalBaseViewController.m */,
+			);
+			name = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		868050811F2ED5BC0041EE4D /* mapVIewViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				868050191F2EBEFA0041EE4D /* ViewController.h */,
+				8680501A1F2EBEFA0041EE4D /* ViewController.m */,
+				868050621F2EC9050041EE4D /* MapViewController.h */,
+				868050631F2EC9050041EE4D /* MapViewController.m */,
+				868050641F2EC9050041EE4D /* SearchRoudViewController.h */,
+				868050651F2EC9050041EE4D /* SearchRoudViewController.m */,
+				868050661F2EC9050041EE4D /* MapDetailViewController.h */,
+				868050671F2EC9050041EE4D /* MapDetailViewController.m */,
+			);
+			name = mapVIewViewControllers;
+			sourceTree = "<group>";
+		};
+		B646A1DFFE155AF011A05500 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECF0EF0432A7DAFEDA55A06 /* libPods-zpMapPlanTheRoute.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8680500F1F2EBEFA0041EE4D /* zpMapPlanTheRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8680503D1F2EBEFA0041EE4D /* Build configuration list for PBXNativeTarget "zpMapPlanTheRoute" */;
+			buildPhases = (
+				509E2F93AD20F05D9182E3B9 /* [CP] Check Pods Manifest.lock */,
+				8680500C1F2EBEFA0041EE4D /* Sources */,
+				8680500D1F2EBEFA0041EE4D /* Frameworks */,
+				8680500E1F2EBEFA0041EE4D /* Resources */,
+				8258E2B639BA72FE061C97CD /* [CP] Embed Pods Frameworks */,
+				9B8004B16163D6FCFE0D4CE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zpMapPlanTheRoute;
+			productName = zpMapPlanTheRoute;
+			productReference = 868050101F2EBEFA0041EE4D /* zpMapPlanTheRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		868050281F2EBEFA0041EE4D /* zpMapPlanTheRouteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868050401F2EBEFA0041EE4D /* Build configuration list for PBXNativeTarget "zpMapPlanTheRouteTests" */;
+			buildPhases = (
+				868050251F2EBEFA0041EE4D /* Sources */,
+				868050261F2EBEFA0041EE4D /* Frameworks */,
+				868050271F2EBEFA0041EE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8680502B1F2EBEFA0041EE4D /* PBXTargetDependency */,
+			);
+			name = zpMapPlanTheRouteTests;
+			productName = zpMapPlanTheRouteTests;
+			productReference = 868050291F2EBEFA0041EE4D /* zpMapPlanTheRouteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		868050331F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868050431F2EBEFA0041EE4D /* Build configuration list for PBXNativeTarget "zpMapPlanTheRouteUITests" */;
+			buildPhases = (
+				868050301F2EBEFA0041EE4D /* Sources */,
+				868050311F2EBEFA0041EE4D /* Frameworks */,
+				868050321F2EBEFA0041EE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868050361F2EBEFA0041EE4D /* PBXTargetDependency */,
+			);
+			name = zpMapPlanTheRouteUITests;
+			productName = zpMapPlanTheRouteUITests;
+			productReference = 868050341F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868050081F2EBEFA0041EE4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "朱鹏";
+				TargetAttributes = {
+					8680500F1F2EBEFA0041EE4D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4UZMW5HLPD;
+						ProvisioningStyle = Automatic;
+					};
+					868050281F2EBEFA0041EE4D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4UZMW5HLPD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8680500F1F2EBEFA0041EE4D;
+					};
+					868050331F2EBEFA0041EE4D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4UZMW5HLPD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8680500F1F2EBEFA0041EE4D;
+					};
+				};
+			};
+			buildConfigurationList = 8680500B1F2EBEFA0041EE4D /* Build configuration list for PBXProject "zpMapPlanTheRoute" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 868050071F2EBEFA0041EE4D;
+			productRefGroup = 868050111F2EBEFA0041EE4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8680500F1F2EBEFA0041EE4D /* zpMapPlanTheRoute */,
+				868050281F2EBEFA0041EE4D /* zpMapPlanTheRouteTests */,
+				868050331F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8680500E1F2EBEFA0041EE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868050231F2EBEFA0041EE4D /* LaunchScreen.storyboard in Resources */,
+				868050201F2EBEFA0041EE4D /* Assets.xcassets in Resources */,
+				868050731F2ECB060041EE4D /* Image.xcassets in Resources */,
+				8680506F1F2EC9140041EE4D /* MapSearchTableViewCell.xib in Resources */,
+				8680501E1F2EBEFA0041EE4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868050271F2EBEFA0041EE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868050321F2EBEFA0041EE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		509E2F93AD20F05D9182E3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8258E2B639BA72FE061C97CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zpMapPlanTheRoute/Pods-zpMapPlanTheRoute-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8004B16163D6FCFE0D4CE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zpMapPlanTheRoute/Pods-zpMapPlanTheRoute-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8680500C1F2EBEFA0041EE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868050601F2EC8FD0041EE4D /* MANaviPolyline.m in Sources */,
+				8680507C1F2ED2000041EE4D /* UIView+baseMethod.m in Sources */,
+				868050611F2EC8FD0041EE4D /* MANaviRoute.m in Sources */,
+				8680501B1F2EBEFA0041EE4D /* ViewController.m in Sources */,
+				868050181F2EBEFA0041EE4D /* AppDelegate.m in Sources */,
+				8680506E1F2EC9140041EE4D /* MapSearchTableViewCell.m in Sources */,
+				8680505B1F2EC8FD0041EE4D /* ZPAnnotation.m in Sources */,
+				8680505E1F2EC8FD0041EE4D /* LineDashPolyline.m in Sources */,
+				8680505F1F2EC8FD0041EE4D /* MANaviAnnotation.m in Sources */,
+				8680507A1F2ED2000041EE4D /* UIViewController+baseMethod.m in Sources */,
+				8680505D1F2EC8FD0041EE4D /* CommonUtility.m in Sources */,
+				868050691F2EC9050041EE4D /* SearchRoudViewController.m in Sources */,
+				8680505C1F2EC8FD0041EE4D /* ErrorInfoUtility.m in Sources */,
+				8680506A1F2EC9050041EE4D /* MapDetailViewController.m in Sources */,
+				868050151F2EBEFA0041EE4D /* main.m in Sources */,
+				868050681F2EC9050041EE4D /* MapViewController.m in Sources */,
+				8680507B1F2ED2000041EE4D /* UITableViewCell+baseMethod.m in Sources */,
+				8680507F1F2ED4070041EE4D /* PresenalBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868050251F2EBEFA0041EE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8680502E1F2EBEFA0041EE4D /* zpMapPlanTheRouteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868050301F2EBEFA0041EE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868050391F2EBEFA0041EE4D /* zpMapPlanTheRouteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8680502B1F2EBEFA0041EE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8680500F1F2EBEFA0041EE4D /* zpMapPlanTheRoute */;
+			targetProxy = 8680502A1F2EBEFA0041EE4D /* PBXContainerItemProxy */;
+		};
+		868050361F2EBEFA0041EE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8680500F1F2EBEFA0041EE4D /* zpMapPlanTheRoute */;
+			targetProxy = 868050351F2EBEFA0041EE4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8680501C1F2EBEFA0041EE4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8680501D1F2EBEFA0041EE4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		868050211F2EBEFA0041EE4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868050221F2EBEFA0041EE4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8680503B1F2EBEFA0041EE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8680503C1F2EBEFA0041EE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8680503E1F2EBEFA0041EE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328699F2E1ADD651985CDC31 /* Pods-zpMapPlanTheRoute.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UZMW5HLPD;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/zpMapPlanTheRoute/PrefixHeader.pch";
+				INFOPLIST_FILE = zpMapPlanTheRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMI.zpMapPlanTheRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8680503F1F2EBEFA0041EE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C7C1FF94F22C0C24C873C3 /* Pods-zpMapPlanTheRoute.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UZMW5HLPD;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/zpMapPlanTheRoute/PrefixHeader.pch";
+				INFOPLIST_FILE = zpMapPlanTheRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMI.zpMapPlanTheRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		868050411F2EBEFA0041EE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UZMW5HLPD;
+				INFOPLIST_FILE = zpMapPlanTheRouteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMI.zpMapPlanTheRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zpMapPlanTheRoute.app/zpMapPlanTheRoute";
+			};
+			name = Debug;
+		};
+		868050421F2EBEFA0041EE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UZMW5HLPD;
+				INFOPLIST_FILE = zpMapPlanTheRouteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMI.zpMapPlanTheRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zpMapPlanTheRoute.app/zpMapPlanTheRoute";
+			};
+			name = Release;
+		};
+		868050441F2EBEFA0041EE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4UZMW5HLPD;
+				INFOPLIST_FILE = zpMapPlanTheRouteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMI.zpMapPlanTheRouteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zpMapPlanTheRoute;
+			};
+			name = Debug;
+		};
+		868050451F2EBEFA0041EE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4UZMW5HLPD;
+				INFOPLIST_FILE = zpMapPlanTheRouteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMI.zpMapPlanTheRouteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zpMapPlanTheRoute;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8680500B1F2EBEFA0041EE4D /* Build configuration list for PBXProject "zpMapPlanTheRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8680503B1F2EBEFA0041EE4D /* Debug */,
+				8680503C1F2EBEFA0041EE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8680503D1F2EBEFA0041EE4D /* Build configuration list for PBXNativeTarget "zpMapPlanTheRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8680503E1F2EBEFA0041EE4D /* Debug */,
+				8680503F1F2EBEFA0041EE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868050401F2EBEFA0041EE4D /* Build configuration list for PBXNativeTarget "zpMapPlanTheRouteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868050411F2EBEFA0041EE4D /* Debug */,
+				868050421F2EBEFA0041EE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868050431F2EBEFA0041EE4D /* Build configuration list for PBXNativeTarget "zpMapPlanTheRouteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868050441F2EBEFA0041EE4D /* Debug */,
+				868050451F2EBEFA0041EE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 868050081F2EBEFA0041EE4D /* Project object */;
+}
