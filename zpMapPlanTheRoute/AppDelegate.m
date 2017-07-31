@@ -92,6 +92,21 @@
     
 }
 
+-(CLLocationManager *)locationManager{
+    
+    if (!_locationManager) {
+        _locationManager = [[CLLocationManager alloc]init];
+        _locationManager.distanceFilter = 10;
+        _locationManager.desiredAccuracy = 10;
+        [_locationManager requestWhenInUseAuthorization];
+        _locationManager.delegate =self;
+        //        _locationManager.allowsBackgroundLocationUpdates = YES;
+        
+    }
+    return _locationManager;
+}
+
+
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
